@@ -1,0 +1,73 @@
+{
+  "workbench.iconTheme": "material-icon-theme", // Optional
+  "workbench.colorTheme": "Omni", // Your vscode theme
+  "files.autoSave": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0,
+  "eslint.format.enable": true, // This is super important
+  "editor.suggestSelection": "first",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": { // This is super important
+    "source.fixAll.eslint": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "eslint.run": "onSave", // This is super important
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true, // This is super important
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "typescript.tsserver.log": "verbose",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "material-icon-theme.activeIconPack": "nest", // If you're using material-icon-theme
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "eslint.packageManager": "yarn", // If you're working with npm, just change this to "eslint.packageManager": "npm"
+  "material-icon-theme.folders.associations": { // If you're using material-icon-theme
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes",
+    "_tests_": "test"
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  }
+}
